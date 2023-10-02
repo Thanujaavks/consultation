@@ -335,7 +335,8 @@ a {
     margin-top: 20px;
 
 }
-.con5_para{
+
+.con5_para {
     width: 565.34px;
 }
 
@@ -347,4 +348,39 @@ a {
     font-weight: 500;
     line-height: 100%;
     /* 18px */
+}
+
+.con6 {
+    padding-top: 80px;
+}
+
+.con6_img {
+    display: flex;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.con7 {
+    background-image: url(assets/ser12.png);
+    
+    width: 1604px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 80px;
+}
+.con7::after{
+    background: rgba(3, 19, 51, 0.8);
+}
+
+.p9 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.5%;
+    /* 62.79px */
+    padding-left: 50px;
 }
