@@ -16,7 +16,9 @@
 }
 
 .nav_content {
+    list-style: none;
     padding: 15px;
+    display: flex;
 
 }
 
@@ -24,8 +26,8 @@
     gap: 50px;
 } */
 
-li,
-a {
+.li,
+.a {
     padding: 5px;
     color: black;
     font-family: Lato;
@@ -35,7 +37,7 @@ a {
     line-height: normal;
     text-decoration: none;
     /* margin-left: 10px; */
-    display: inline-block;
+    /* display: inline-block; */
 
 }
 
@@ -416,7 +418,7 @@ a {
 
 .con7 {
     background-image: url(assets/ser12.png);
-    width: 1604px;
+    /* width: 1604px; */
     height: 380px;
     margin-top: 80px;
 }
@@ -492,9 +494,12 @@ a {
 
 .con9 {
     background-color: #F3F3F3;
-    width: 1264px;
+
     height: 327px;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 80px;
 }
 
 .par2 {
@@ -504,7 +509,7 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 159.5%;
-    /* 44.66px */
+
 }
 
 .par3 {
@@ -514,5 +519,78 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
-    /* 25.2px */
+    margin-top: 20px;
+}
+
+.con9_para {
+    border-right: 2px solid;
+    margin-right: 60px;
+    padding-left: 200px;
+    padding-right: 60px;
+}
+
+.but4 {
+    display: inline-flex;
+    height: 54px;
+    padding: 14px 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background: #F54C1E;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+
+}
+
+.cont1 {
+    background: #031333;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 60px 100px;
+}
+
+.par4 {
+    color: #FDFDFD;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    margin-top: 20px;
+}
+
+.he5 {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    /* margin-left: 5px; */
+}
+
+.list {
+    list-style: none;
+
+}
+
+.loc_list {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    margin-top: 15px;
+}
+
+.svg {
+    margin-top: 20px;
 }
